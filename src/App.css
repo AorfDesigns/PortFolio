@@ -1,0 +1,88 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(38, 38, 38);
+}
+.sub-text {
+    color:rgb(27, 27, 27);
+}
+.self-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+ /* Optional: add padding for overall container spacing */
+  }
+  
+  .self-container > div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+  }
+  .myImage {
+    border-radius: 100%;
+  }
+  .image-container {
+    background-color: whitesmoke;
+    padding: 16px 48px;
+    border-radius: 30px;
+    color: rgb(43, 43, 43);
+    width: 400px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.lists {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: start;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.lists h2 {
+    margin-bottom: 10px; /* Optional: add spacing after the header */
+  }
+  
+.links-tag  {
+    display: flex;
+    gap: 20px; /* Adjust the value to your preference */
+    justify-content: flex-start;
+}
+  
+  .links-tag a {
+    text-decoration: none;
+    color: inherit;
+    font-size: small;
+  }
+  
+  .links-tag li {
+    list-style-type: none;
+    border-radius: 4px;
+  }
+  .links-tag a :hover {
+    color: green;
+  }
+  .my-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns child items to the left */
+    gap: 20px; /* Adds space between each component */
+  }
+  
+  
