@@ -6,7 +6,7 @@ const Dislikes = () => {
     <ul>
       <h2>DisLikes</h2>
       <div className="links-tag">
-        <a href=""><li>Lies</li></a>
+        <a href=""><li>Lies And Jealousy</li></a>
         <a href=""><li>Dishonesty</li></a>
       </div>
     </ul>
